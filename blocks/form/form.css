@@ -78,17 +78,20 @@
     width: 243px;
     padding: 15px 0px 0px 20px;
     height: 48px;
+    outline:none;
 }
 
 .input__container_type_number {
     width: 243px;
     padding: 15px 0px 0px 20px;
     height: 48px;
+    outline:none;
 }
 
 .input__container_type_service {
     width: 362px;
     height: 48px;
+    outline:none;
 }
 
 .select {
