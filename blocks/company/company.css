@@ -1,8 +1,11 @@
 .company {
     background-image: url(../../img/company__background.jpg);
-    background-size: cover;
-    height: 658px;
+    background-size: contain;
+    width: 100%;
     position: relative;
+    height: 658px;
+    margin: 0px auto 0px;
+    max-width: 100%;
 }
 
 .company__title {
