@@ -1,0 +1,29 @@
+.button_type_submit {
+    width: 223px;
+    height: 48px;
+    border-radius: 60px;
+    background-color: #F5BE28;
+    border: 0px;
+    color: #151515;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;    
+}
+
+.button {
+    padding: 0px;
+    margin: 0px;
+}
+
+.button_type_next {
+    background-image: url(../../img/services__button.png);
+    border: 0px;
+    position: absolute;
+    width: 28.57px;
+    height: 28.24px;
+    z-index: 2;
+    padding: 0px;
+    background-color: inherit;
+    bottom: 39.72px;
+    left: 42.15px;
+}

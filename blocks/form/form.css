@@ -1,0 +1,134 @@
+.form {
+    width: 1215.45px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(546px);
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-top: 27.47px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.form__container {
+    width: 1116px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.form__items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form__item {
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 30px 19px;
+    grid-template-columns: 30px 1fr;
+    column-gap: 9px;
+    row-gap: 11px;
+    align-items: center;
+}
+
+.form__input {
+    border: 0px;
+    grid-column: span 2;
+    color: #8C8989;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form__text { 
+    margin: 0px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.form__inputs {
+    margin-top: 44.66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__container {
+    background-color: #F4F3F3;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.input {
+    margin: 0px;
+    box-sizing: border-box;
+    border: 0px;
+    background-color: #F4F3F3;
+    outline:none;
+}
+
+.input__container_type_name{
+    width: 243px;
+    padding: 15px 0px 0px 20px;
+    height: 48px;
+}
+
+.input__container_type_number {
+    width: 243px;
+    padding: 15px 0px 0px 20px;
+    height: 48px;
+}
+
+.input__container_type_service {
+    width: 362px;
+    height: 48px;
+}
+
+.select {
+    width: 323px;
+    border: 0px;
+    background-color: #F4F3F3;
+    color: #6F6F6F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 15px 0px 0px 20px;
+    outline:none;
+}
+
+.form__line {
+    position: absolute;
+    top: 84.25px;
+}
+
+.form__line2 {
+    left: 480px;
+    top: 0px;
+}
+
+.form__line3 {
+    left: 853.06px;
+    top: 0px;
+}
+
+.form__item:nth-child(1) {
+    margin: 0px;
+    width: 209px;
+}
+
+.form__item:nth-child(2) {
+    margin: 0px 0px 0px 246px;
+    width: 200px;
+}
+
+.form__item:nth-child(3) {
+    margin: 0px 0px 0px 173px;
+    width: 112px;
+}

@@ -1,0 +1,29 @@
+.company {
+    background-image: url(../../img/company__background.jpg);
+    background-size: cover;
+    height: 658px;
+    position: relative;
+}
+
+.company__title {
+    width: 404.77px;
+    position: absolute;
+    top: 172.77px;
+    left: 75px;
+    margin: 0px;
+}
+
+.company__title p:first-child {
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 82px;
+    margin: 0px;
+}
+
+.company__title p:last-child {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    margin: 0px;
+    margin-top: 16.33px;
+}
