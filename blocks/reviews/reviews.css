@@ -43,12 +43,14 @@
     justify-content: space-between;
     width:102.4px;
     height: 32.23px;
+    padding: 0px;
 }
 
 .button_type_slider {
     width: 32.38px;
     height: 32px;
     border: 0px;
+    padding: 0px;
     background-color: inherit;
 }
 
