@@ -14,17 +14,77 @@
     align-items: center;
 }
 
+
+.nav__button {
+    background-color: inherit;
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navigation__bar {
+
+    background-image: url(../../img/navigation__bar.png);
+    height: 22px;
+    width: 21.52px;
+
+}
+
 .navigation__logo {
     width: 77.23px;
     height:79.37px;
 }
 
+.navigation__number{
+    display: flex;
+    align-items: center;
+}
+
 .navigation__items {
-    list-style: none;
     padding: 0px;
     margin: 0px;
+    align-items: center;
 }
 
 .navigation__item {
     display: inline-block;
+    flex-direction: row;
 }
+
+.number {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0px;
+    align-content: center;
+    height: 23px;
+}
+
+.navigation__call {
+    margin-right: 6.37px;
+    width: 28.85px;
+    height: 28.85px;
+}
+
+.navigation__telegram {
+    height: 28.5px;
+    width: 28.5px;
+    background-image: url(../../img/navigation__telegram.png);
+}
+
+.navigation__whatsapp {
+    height: 28.5px;
+    width: 28.5px;
+    background-image: url(../../img/navigation__whatsapp.png);
+}
+
+.navigation__items a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #151515;
+}
+

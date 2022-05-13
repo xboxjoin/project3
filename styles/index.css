@@ -9,6 +9,7 @@
 @import url(../blocks/aboutcompany/aboutcompany.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/partners/partners.css);
+@import url(../blocks/footer/footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
 
 
@@ -22,4 +23,13 @@
 }
 body {
     display: flex;
+}
+
+a:active {
+    color: #ffff00; /* Цвет активных ссылок */
+    text-decoration: underline
+}
+
+a {
+    text-decoration: none;
 }
