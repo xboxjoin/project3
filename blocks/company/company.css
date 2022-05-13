@@ -1,7 +1,7 @@
 .company {
     background-image: url(../../img/company__background.jpg);
     background-size: contain;
-    height: 658px;
+    width: 100%;
     position: relative;
     background-size: contain;
     height: 658px
