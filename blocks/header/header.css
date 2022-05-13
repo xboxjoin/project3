@@ -30,6 +30,7 @@
     background-image: url(../../img/navigation__bar.png);
     height: 22px;
     width: 21.52px;
+    margin-left: 20.15px;
 
 }
 
@@ -44,6 +45,7 @@
 }
 
 .navigation__items {
+    display: flex;
     padding: 0px;
     margin: 0px;
     align-items: center;
@@ -70,12 +72,14 @@
 }
 
 .navigation__telegram {
+    margin-left: 10px;
     height: 28.5px;
     width: 28.5px;
     background-image: url(../../img/navigation__telegram.png);
 }
 
 .navigation__whatsapp {
+    margin-left: 10px;
     height: 28.5px;
     width: 28.5px;
     background-image: url(../../img/navigation__whatsapp.png);
