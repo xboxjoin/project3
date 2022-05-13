@@ -1,0 +1,45 @@
+.aboutcompany {
+    margin-top: 20px;
+    width: 1200px;
+    margin: 95px auto 0;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.aboutcompany__image {
+    position: relative;
+    z-index: 2;
+}
+
+.aboutcompany__container {
+    width: 500px; 
+    margin-left: 109px;
+    margin-top: 73.29px;
+}
+
+.aboutcompany__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.aboutcompany__subtitle {
+    margin: 0px;
+    margin-top: 42.64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.image__shadow {
+    position: absolute;
+    left: 546.94px;
+    top: 69.71px;
+    z-index: 1;
+}

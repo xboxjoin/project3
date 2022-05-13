@@ -38,7 +38,7 @@
                             <div class = "form__item">
                                 <img class = "form__icon" src="./img/form__otkuda.png">
                                 <p class = "form__text">Откуда</p>
-                                <input class = "input_place_form" placeholder = "Укажите пункт отправления">                      
+                                <input class = "form__input" placeholder = "Укажите пункт отправления">                      
                             </div>
                             <div class = "form__item">
                                 <img class = "form__icon" src="./img/form__otkuda.png">
@@ -164,17 +164,52 @@
                 <h2 class="consultation__title">Получить консультацию</h2>
                 <img src="./img/Vector32.svg" alt="d" class="vector1">
                 <h3 class="consultation__text">Оставьте заявку мы вам поможем понять ваши нужды!</h3>
-                <div class="input__container">
-                    <input class = "form__input" placeholder = "Укажите пункт отправления"> 
-                    <input class = "form__input" placeholder = "+7 (...)">  
-                    <input class = "form__input" placeholder = "Сообщение">  
+                <div class="input__containers1">
+                    <div class = "input__container input__number">
+                        <input class = "input" placeholder = "+7 (...)">
+                    </div>
+                    <div class = "input__container input__message">
+                        <input class = "input" placeholder = "Сообщение">
+                    </div>
+                    <div class = "input__container input__name">
+                        <input class = "input" placeholder = "Ваше имя">
+                    </div>
                 </div>
                 <div class="consultation__contacts">
                     <button class = "button_type_submit button" type="submit">Оставить заявку</button>
                     <p class="consultation__number">или звоните по телефону <span>+7 (708) 88-88-090 / 91</span></p>
                 </div>
             </form>
-            <img src="./img/consulationMan.jpg" alt="muzhik" class="consultation__image">
+            <img src="./img/consulationMan.png" alt="muzhik" class="consultation__image">
+            <div class="backround__container">
+                <img src="./img/uzory.png" alt="background" class="consultation__background">
+            </div>
+        </section> 
+
+        <section class="aboutcompany">
+            <img src="./img/companyMan.jpg" alt="worker" class="aboutcompany__image">
+            <img src="./img/shadow.png" alt="" class="image__shadow">
+            <div class="aboutcompany__container">
+                <h2 class = 'aboutcompany__title'>О компании</h2>
+                <img src="./img/Vector32.svg" alt="d" class="vector">
+                <h3 class="aboutcompany__subtitle">ТОО «ALA-KAZ Logistics» постоянно совершенствуя свои возможности, разрабатывая новые логистические маршруты, предоставляет высокий уровень сервиса, а также на основе гибкой ценовой политики рассматривает любые варианты взаимовыгодного сотрудничества.</h3>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__container aboutcompany__container ">
+                <h2 class = 'aboutcompany__title'>Отзывы о нас</h2>
+                <img src="./img/Vector32.svg" alt="d" class="vector">
+                <h3 class="aboutcompany__subtitle">Благодарственные письма от наших клиентов и партнеров. Мы ценим каждого клиента и благодарим вас за оказанное доверие!</h3>
+                <div class="slider__buttons">
+                    <button class="button_type_back button_type_slider"></button>
+                    <img src="./img/Rectangle 2037.svg" alt="" class="line">
+                    <button class="button_type_next1 button_type_slider"></button>
+                </div>
+            </div>
+            <img src="./img/award1.jpg" alt="award" class="award">
+            <img src="./img/awards.jpg" alt="" class="awards">
+            <img src="./img/shadow1.png" alt="" class="image__shadow">
+            
         </section>
     </div>
     <script src="./index.js"></script>

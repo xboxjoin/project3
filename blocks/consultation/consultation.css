@@ -1,0 +1,116 @@
+.consultation {
+    height: 470px;
+    width: 100%;
+    position: relative;
+    margin-top: 210px;
+    background-color: #E9EBEB;
+    display: flex;
+}
+
+.consultation__container {
+    position: absolute;
+    margin: 0px;
+    width: 510px;
+    z-index: 2;
+    left: 76.5px;
+    top: 72px;
+}
+
+.consultation__image {
+    position: absolute;
+    bottom: 0;
+    left: 700px;
+    z-index: 2;
+}
+
+.consultation__background {
+   /* position: absolute;
+    left: 0px;
+    bottom: -430px;
+    z-index: 1;
+    width: 949px;
+    height: 875px;
+    background-size: contain;
+    object-fit: contain; */
+    z-index: 1;
+    position: relative;
+    background-image: url(../../img/background.png)
+}
+
+.backround__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.consultation__title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px;
+    width: 457px;
+}
+
+.consultation__container .vector1 {
+    margin-top: 24px;
+}
+
+.consultation__text {
+    margin: 25.75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 453px;
+}
+
+.input__containers1 {
+    margin-top: 26.12px;
+    display: grid;
+    grid-template-columns: 289.56px 210.45px;
+    grid-template-rows: repeat(2, 47px);
+    column-gap: 10px;
+    row-gap: 10px;
+    color: #151515;
+}
+.input__containers1 .input__container {
+    padding: 15px 0px 0px 20px;
+}
+
+.input__containers1 .input__container:nth-child(3) {
+    grid-column: span 2;
+}
+
+.input__containers1 .input {
+    color: #151515;
+}
+
+.consultation__contacts {
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 223px 1fr;
+    grid-template-rows: 47px;
+    column-gap: 23.73px;
+}
+
+.consultation__number {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 193px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.consultation__number span {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 1.64px;
+}
