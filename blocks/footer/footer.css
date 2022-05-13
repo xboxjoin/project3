@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     min-height: 384px;
+    margin-top: 92px;
 }
 
 .footer__container1 {
@@ -68,10 +69,6 @@
 .footer__services .container2 p {
     margin: 0px;
     max-width: 96px;
-}
-a:visited {
-    color: white;
-    text-decoration: underline;
 }
 
 .footer__services .container1 p:nth-child(2) { margin-top: 17px;}
