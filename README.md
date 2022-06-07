@@ -1,2 +1,2 @@
 # project3
-https://xboxjoin.github.io/test1/
+https://xboxjoin.github.io/project3/
